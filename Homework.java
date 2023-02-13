@@ -10,9 +10,13 @@ public class Homework {
         return input.nextInt(); // Считывание данных
     }
 
-    public static int triangularNumber(int num) {
+    public static int triangularNumber(int num) { // Вычисление n-го треугольного числа
         int result = (1/2)*num*(num+1);
         return result;
+    }
+
+    public static void outputResult(int result) { // Вывод результата в консоль
+        System.out.println(result);
     }
 
 }
