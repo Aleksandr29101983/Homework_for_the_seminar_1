@@ -10,4 +10,9 @@ public class Homework {
         return input.nextInt(); // Считывание данных
     }
 
+    public static int triangularNumber(int num) {
+        int result = (1/2)*num*(num+1);
+        return result;
+    }
+
 }
